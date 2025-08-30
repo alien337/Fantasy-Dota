@@ -344,7 +344,7 @@
 			
 			if (donateButton) {
 				donateButton.addEventListener('click', () => {
-					window.open('https://www.donationalerts.com/r/your-username', '_blank');
+					window.open('https://www.donationalerts.com/r/krutiedonati', '_blank');
 				});
 			}
 			

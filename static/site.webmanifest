@@ -1,0 +1,25 @@
+{
+  "name": "Dota 2 Fantasy Stats",
+  "short_name": "Fantasy Stats",
+  "description": "Comprehensive analysis of Dota 2 professional player statistics for Fantasy League",
+  "icons": [
+    {
+      "src": "/static/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#4CAF50",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["games", "sports", "utilities"],
+  "lang": "en"
+}

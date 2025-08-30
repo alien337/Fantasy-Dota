@@ -1,0 +1,25 @@
+{
+  "player_id": "81306398",
+  "nickname": "KingJungles",
+  "team": "HEROIC",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.38,
+    "deaths": 6.5,
+    "last_hits": 83.85,
+    "denies": 3.4,
+    "gold_per_min": 334.77,
+    "tower_kills": 0.25,
+    "observer_uses": 14.03,
+    "camps_stacked": 5.95,
+    "rune_pickups": 4.5,
+    "roshan_kills": 0.07,
+    "teamfight_participation": 0.63,
+    "stuns": 36.11,
+    "courier_kills": 0.33,
+    "smoke_uses": 4.65,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:57:59.206661",
+  "position": 5
+}

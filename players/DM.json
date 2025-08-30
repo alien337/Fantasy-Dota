@@ -1,0 +1,25 @@
+{
+  "player_id": "56351509",
+  "nickname": "DM",
+  "team": "PVISION",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.45,
+    "deaths": 3.25,
+    "last_hits": 291.27,
+    "denies": 16.27,
+    "gold_per_min": 556.88,
+    "tower_kills": 1.27,
+    "observer_uses": 0.05,
+    "camps_stacked": 1.77,
+    "rune_pickups": 2.38,
+    "roshan_kills": 0.33,
+    "teamfight_participation": 0.65,
+    "stuns": 19.9,
+    "courier_kills": 0.17,
+    "smoke_uses": 0,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-26T22:01:34.173423",
+  "position": 3
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "139031324",
+  "nickname": "Beyond",
+  "team": "Yakult Brothers",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.03,
+    "deaths": 4.03,
+    "last_hits": 278.8,
+    "denies": 8.15,
+    "gold_per_min": 496.35,
+    "tower_kills": 0.72,
+    "observer_uses": 0.03,
+    "camps_stacked": 1.12,
+    "rune_pickups": 2.1,
+    "roshan_kills": 0.07,
+    "teamfight_participation": 0.64,
+    "stuns": 29.83,
+    "courier_kills": 0.23,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-28T04:10:26.908264",
+  "position": 3
+}

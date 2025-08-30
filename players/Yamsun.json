@@ -1,0 +1,25 @@
+{
+  "player_id": "81475303",
+  "nickname": "Yamsun",
+  "team": "Unknown Team",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.53,
+    "deaths": 4.03,
+    "last_hits": 379.05,
+    "denies": 12.43,
+    "gold_per_min": 637.88,
+    "tower_kills": 2.12,
+    "observer_uses": 0,
+    "camps_stacked": 1.85,
+    "rune_pickups": 2.52,
+    "roshan_kills": 0.42,
+    "teamfight_participation": 0.52,
+    "stuns": 10.28,
+    "courier_kills": 0.1,
+    "smoke_uses": 0,
+    "first_bloods": 0.03
+  },
+  "last_updated": "2025-08-27T00:54:11.887600",
+  "position": 1
+}

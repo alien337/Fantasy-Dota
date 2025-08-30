@@ -1,0 +1,25 @@
+{
+  "player_id": "154974246",
+  "nickname": "RCY",
+  "team": "4 Amigos",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.72,
+    "deaths": 4.3,
+    "last_hits": 306.52,
+    "denies": 13.38,
+    "gold_per_min": 571.75,
+    "tower_kills": 0.68,
+    "observer_uses": 2.55,
+    "camps_stacked": 0.93,
+    "rune_pickups": 7.88,
+    "roshan_kills": 0.3,
+    "teamfight_participation": 0.72,
+    "stuns": 37.75,
+    "courier_kills": 0.25,
+    "smoke_uses": 0,
+    "first_bloods": 0.03
+  },
+  "last_updated": "2025-08-27T00:54:26.289938",
+  "position": 2
+}

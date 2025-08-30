@@ -1,0 +1,25 @@
+{
+  "player_id": "111620041",
+  "nickname": "SumaiL-",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.83,
+    "deaths": 3.2,
+    "last_hits": 346.55,
+    "denies": 11.2,
+    "gold_per_min": 575.7,
+    "tower_kills": 0.5,
+    "observer_uses": 1.68,
+    "camps_stacked": 1.4,
+    "rune_pickups": 11.28,
+    "roshan_kills": 0.3,
+    "teamfight_participation": 0.66,
+    "stuns": 25.58,
+    "courier_kills": 0.2,
+    "smoke_uses": 0.15,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-27T00:36:37.034186",
+  "position": 2
+}

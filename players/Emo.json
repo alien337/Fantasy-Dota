@@ -1,0 +1,25 @@
+{
+  "player_id": "202217968",
+  "nickname": "Emo",
+  "team": "Yakult Brothers",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.55,
+    "deaths": 3.58,
+    "last_hits": 266.3,
+    "denies": 9.93,
+    "gold_per_min": 539.92,
+    "tower_kills": 0.47,
+    "observer_uses": 1.07,
+    "camps_stacked": 0.82,
+    "rune_pickups": 9.45,
+    "roshan_kills": 0.23,
+    "teamfight_participation": 0.65,
+    "stuns": 21.39,
+    "courier_kills": 0.17,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-28T04:09:01.397455",
+  "position": 2
+}

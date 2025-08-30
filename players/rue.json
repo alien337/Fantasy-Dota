@@ -1,0 +1,25 @@
+{
+  "player_id": "847565596",
+  "nickname": "rue",
+  "team": "Team Spirit",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.35,
+    "deaths": 6.17,
+    "last_hits": 78.05,
+    "denies": 1.98,
+    "gold_per_min": 343.48,
+    "tower_kills": 0.25,
+    "observer_uses": 7.6,
+    "camps_stacked": 4.85,
+    "rune_pickups": 1.88,
+    "roshan_kills": 0.07,
+    "teamfight_participation": 0.66,
+    "stuns": 74.03,
+    "courier_kills": 0.53,
+    "smoke_uses": 1.85,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-26T21:52:44.169279",
+  "position": 4
+}

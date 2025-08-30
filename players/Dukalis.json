@@ -1,0 +1,25 @@
+{
+  "player_id": "73401082",
+  "nickname": "Dukalis",
+  "team": "PVISION",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.12,
+    "deaths": 4.78,
+    "last_hits": 69.72,
+    "denies": 1.95,
+    "gold_per_min": 316.77,
+    "tower_kills": 0.53,
+    "observer_uses": 10.97,
+    "camps_stacked": 2.75,
+    "rune_pickups": 2.58,
+    "roshan_kills": 0.1,
+    "teamfight_participation": 0.68,
+    "stuns": 19.07,
+    "courier_kills": 0.2,
+    "smoke_uses": 5.4,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-26T22:01:51.730065",
+  "position": 5
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "480412663",
+  "nickname": "gpk~",
+  "team": "BB Team",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 8.43,
+    "deaths": 2.08,
+    "last_hits": 359.62,
+    "denies": 14.88,
+    "gold_per_min": 607.45,
+    "tower_kills": 1.4,
+    "observer_uses": 1.5,
+    "camps_stacked": 2.05,
+    "rune_pickups": 11,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.7,
+    "stuns": 23.14,
+    "courier_kills": 0.25,
+    "smoke_uses": 0.07,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:17:19.639932",
+  "position": 2
+}

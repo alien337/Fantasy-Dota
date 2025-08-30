@@ -1,0 +1,25 @@
+{
+  "player_id": "118134220",
+  "nickname": "Bach",
+  "team": "Team Tidebound",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.45,
+    "deaths": 4.05,
+    "last_hits": 276.57,
+    "denies": 11.68,
+    "gold_per_min": 513.23,
+    "tower_kills": 0.85,
+    "observer_uses": 0.03,
+    "camps_stacked": 2.42,
+    "rune_pickups": 1.82,
+    "roshan_kills": 0.33,
+    "teamfight_participation": 0.65,
+    "stuns": 20.61,
+    "courier_kills": 0.1,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-26T22:06:29.497850",
+  "position": 3
+}

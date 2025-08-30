@@ -1,0 +1,25 @@
+{
+  "player_id": "331855530",
+  "nickname": "Pure",
+  "team": "BB Team",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.88,
+    "deaths": 3.75,
+    "last_hits": 462.43,
+    "denies": 12.28,
+    "gold_per_min": 712.02,
+    "tower_kills": 3.08,
+    "observer_uses": 0.12,
+    "camps_stacked": 2.45,
+    "rune_pickups": 3.02,
+    "roshan_kills": 0.65,
+    "teamfight_participation": 0.6,
+    "stuns": 13.15,
+    "courier_kills": 0.2,
+    "smoke_uses": 0,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-27T00:16:45.176315",
+  "position": 1
+}

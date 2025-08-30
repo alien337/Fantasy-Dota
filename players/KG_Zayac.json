@@ -1,0 +1,25 @@
+{
+  "player_id": "111030315",
+  "nickname": "KG_Zayac",
+  "team": "Natus Vincere",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 1.95,
+    "deaths": 6.15,
+    "last_hits": 71.42,
+    "denies": 1.48,
+    "gold_per_min": 304.3,
+    "tower_kills": 0.33,
+    "observer_uses": 7.97,
+    "camps_stacked": 5.97,
+    "rune_pickups": 2.95,
+    "roshan_kills": 0.05,
+    "teamfight_participation": 0.7,
+    "stuns": 46.72,
+    "courier_kills": 0.8,
+    "smoke_uses": 2.88,
+    "first_bloods": 0.17
+  },
+  "last_updated": "2025-08-27T00:32:52.091340",
+  "position": 4
+}

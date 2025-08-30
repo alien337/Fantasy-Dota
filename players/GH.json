@@ -1,0 +1,25 @@
+{
+  "player_id": "101356886",
+  "nickname": "GH",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 1.93,
+    "deaths": 5.28,
+    "last_hits": 58.48,
+    "denies": 1.88,
+    "gold_per_min": 300.75,
+    "tower_kills": 0.12,
+    "observer_uses": 7,
+    "camps_stacked": 2.67,
+    "rune_pickups": 3.25,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.67,
+    "stuns": 54.65,
+    "courier_kills": 0.3,
+    "smoke_uses": 2.65,
+    "first_bloods": 0.23
+  },
+  "last_updated": "2025-08-27T00:37:01.777287",
+  "position": 5
+}

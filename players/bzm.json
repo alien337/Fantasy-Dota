@@ -1,0 +1,25 @@
+{
+  "player_id": "93618577",
+  "nickname": "bzm",
+  "team": "Tundra Esports",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 7.12,
+    "deaths": 3.25,
+    "last_hits": 364.1,
+    "denies": 12,
+    "gold_per_min": 627.62,
+    "tower_kills": 1.05,
+    "observer_uses": 1.6,
+    "camps_stacked": 2.48,
+    "rune_pickups": 9.57,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.68,
+    "stuns": 45.78,
+    "courier_kills": 0.33,
+    "smoke_uses": 0.12,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:13:36.387382",
+  "position": 2
+}

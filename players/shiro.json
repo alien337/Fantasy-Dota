@@ -1,0 +1,25 @@
+{
+  "player_id": "320252024",
+  "nickname": "shiro",
+  "team": "Team Tidebound",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 7.45,
+    "deaths": 2.75,
+    "last_hits": 460.88,
+    "denies": 10.72,
+    "gold_per_min": 716.88,
+    "tower_kills": 3.45,
+    "observer_uses": 0.03,
+    "camps_stacked": 1.85,
+    "rune_pickups": 2.52,
+    "roshan_kills": 0.78,
+    "teamfight_participation": 0.57,
+    "stuns": 11.6,
+    "courier_kills": 0.15,
+    "smoke_uses": 0,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-26T22:06:05.722798",
+  "position": 1
+}

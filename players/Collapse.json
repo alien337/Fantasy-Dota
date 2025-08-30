@@ -1,0 +1,25 @@
+{
+  "player_id": "302214028",
+  "nickname": "Collapse",
+  "team": "Team Spirit",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.75,
+    "deaths": 4.55,
+    "last_hits": 309.18,
+    "denies": 10,
+    "gold_per_min": 561.65,
+    "tower_kills": 1.07,
+    "observer_uses": 0.05,
+    "camps_stacked": 2.23,
+    "rune_pickups": 3.15,
+    "roshan_kills": 0.2,
+    "teamfight_participation": 0.69,
+    "stuns": 36.25,
+    "courier_kills": 0.28,
+    "smoke_uses": 0.15,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-26T21:52:58.864487",
+  "position": 3
+}

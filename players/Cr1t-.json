@@ -1,0 +1,25 @@
+{
+  "player_id": "25907144",
+  "nickname": "Cr1t-",
+  "team": "Team Falcons",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.52,
+    "deaths": 5.95,
+    "last_hits": 70.45,
+    "denies": 2.33,
+    "gold_per_min": 328.57,
+    "tower_kills": 0.35,
+    "observer_uses": 7.33,
+    "camps_stacked": 6,
+    "rune_pickups": 2.6,
+    "roshan_kills": 0.15,
+    "teamfight_participation": 0.61,
+    "stuns": 41.01,
+    "courier_kills": 0.38,
+    "smoke_uses": 3.23,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:07:36.064026",
+  "position": 4
+}

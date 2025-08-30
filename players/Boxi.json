@@ -1,0 +1,25 @@
+{
+  "player_id": "77490514",
+  "nickname": "Boxi",
+  "team": "Team Liquid",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.75,
+    "deaths": 6.72,
+    "last_hits": 64.88,
+    "denies": 4.42,
+    "gold_per_min": 326.1,
+    "tower_kills": 0.17,
+    "observer_uses": 8.7,
+    "camps_stacked": 5.85,
+    "rune_pickups": 2.7,
+    "roshan_kills": 0.03,
+    "teamfight_participation": 0.66,
+    "stuns": 59.65,
+    "courier_kills": 0.33,
+    "smoke_uses": 3.55,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:24:57.446760",
+  "position": 4
+}

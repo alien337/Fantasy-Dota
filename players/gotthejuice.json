@@ -1,0 +1,25 @@
+{
+  "player_id": "957204049",
+  "nickname": "gotthejuice",
+  "team": "Natus Vincere",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 7.38,
+    "deaths": 2.75,
+    "last_hits": 486.73,
+    "denies": 8.8,
+    "gold_per_min": 778.73,
+    "tower_kills": 2.88,
+    "observer_uses": 0.15,
+    "camps_stacked": 2.15,
+    "rune_pickups": 2.33,
+    "roshan_kills": 0.62,
+    "teamfight_participation": 0.63,
+    "stuns": 10.88,
+    "courier_kills": 0.1,
+    "smoke_uses": 0,
+    "first_bloods": 0.03
+  },
+  "last_updated": "2025-08-27T00:32:19.366247",
+  "position": 1
+}

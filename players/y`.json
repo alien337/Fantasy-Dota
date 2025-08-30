@@ -1,0 +1,25 @@
+{
+  "player_id": "111114687",
+  "nickname": "y`",
+  "team": "Team Tidebound",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.08,
+    "deaths": 5.85,
+    "last_hits": 50.9,
+    "denies": 1.93,
+    "gold_per_min": 296,
+    "tower_kills": 0.33,
+    "observer_uses": 11.25,
+    "camps_stacked": 1.7,
+    "rune_pickups": 2.2,
+    "roshan_kills": 0.15,
+    "teamfight_participation": 0.66,
+    "stuns": 22.26,
+    "courier_kills": 0.15,
+    "smoke_uses": 3.58,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-26T22:06:46.819804",
+  "position": 5
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "164532005",
+  "nickname": "Armel",
+  "team": "BOOM Esports",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.6,
+    "deaths": 3.42,
+    "last_hits": 318.07,
+    "denies": 11.82,
+    "gold_per_min": 560.48,
+    "tower_kills": 0.88,
+    "observer_uses": 1.25,
+    "camps_stacked": 1.12,
+    "rune_pickups": 9.07,
+    "roshan_kills": 0.47,
+    "teamfight_participation": 0.74,
+    "stuns": 27.03,
+    "courier_kills": 0.1,
+    "smoke_uses": 0.15,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-27T00:50:37.439718",
+  "position": 2
+}

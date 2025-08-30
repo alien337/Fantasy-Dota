@@ -1,0 +1,25 @@
+{
+  "player_id": "90423751",
+  "nickname": "Bignum",
+  "team": "Unknown Team",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.92,
+    "deaths": 5.92,
+    "last_hits": 40.8,
+    "denies": 1.98,
+    "gold_per_min": 285.4,
+    "tower_kills": 0.15,
+    "observer_uses": 7.9,
+    "camps_stacked": 3.3,
+    "rune_pickups": 2.8,
+    "roshan_kills": 0.1,
+    "teamfight_participation": 0.64,
+    "stuns": 55.63,
+    "courier_kills": 0.25,
+    "smoke_uses": 4.42,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-27T00:54:58.205433",
+  "position": 4
+}

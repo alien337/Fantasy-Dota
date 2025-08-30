@@ -1,0 +1,25 @@
+{
+  "player_id": "431770905",
+  "nickname": "TORONTOTOKYO",
+  "team": "Aurora Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.47,
+    "deaths": 3.8,
+    "last_hits": 323.4,
+    "denies": 11.82,
+    "gold_per_min": 552.2,
+    "tower_kills": 0.38,
+    "observer_uses": 0.23,
+    "camps_stacked": 3.33,
+    "rune_pickups": 1.5,
+    "roshan_kills": 0.05,
+    "teamfight_participation": 0.62,
+    "stuns": 38.01,
+    "courier_kills": 0,
+    "smoke_uses": 0.2,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-27T00:38:46.624326",
+  "position": 3
+}

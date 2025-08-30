@@ -1,0 +1,25 @@
+{
+  "player_id": "1044002267",
+  "nickname": "Satanic",
+  "team": "PVISION",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 8.45,
+    "deaths": 2.75,
+    "last_hits": 546.75,
+    "denies": 14.15,
+    "gold_per_min": 795.88,
+    "tower_kills": 3.12,
+    "observer_uses": 0,
+    "camps_stacked": 3.15,
+    "rune_pickups": 3.12,
+    "roshan_kills": 0.82,
+    "teamfight_participation": 0.65,
+    "stuns": 16.3,
+    "courier_kills": 0.23,
+    "smoke_uses": 0,
+    "first_bloods": 0.23
+  },
+  "last_updated": "2025-08-26T22:01:15.302582",
+  "position": 1
+}

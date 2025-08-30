@@ -1,0 +1,25 @@
+{
+  "player_id": "835864135",
+  "nickname": "pma",
+  "team": "Natus Vincere",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.6,
+    "deaths": 3.25,
+    "last_hits": 334.57,
+    "denies": 5.58,
+    "gold_per_min": 568.98,
+    "tower_kills": 0.85,
+    "observer_uses": 0,
+    "camps_stacked": 3.23,
+    "rune_pickups": 2.85,
+    "roshan_kills": 0.28,
+    "teamfight_participation": 0.77,
+    "stuns": 31.75,
+    "courier_kills": 0.3,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-27T00:32:42.636336",
+  "position": 3
+}

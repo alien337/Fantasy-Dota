@@ -1,0 +1,25 @@
+{
+  "player_id": "106573901",
+  "nickname": "No[o]ne-",
+  "team": "PVISION",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 7.17,
+    "deaths": 4.03,
+    "last_hits": 376.77,
+    "denies": 10.7,
+    "gold_per_min": 614.23,
+    "tower_kills": 0.65,
+    "observer_uses": 1.7,
+    "camps_stacked": 1.98,
+    "rune_pickups": 11.5,
+    "roshan_kills": 0.33,
+    "teamfight_participation": 0.7,
+    "stuns": 33.86,
+    "courier_kills": 0.23,
+    "smoke_uses": 0.07,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-26T22:01:25.525096",
+  "position": 2
+}

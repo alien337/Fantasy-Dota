@@ -1,0 +1,25 @@
+{
+  "player_id": "157475523",
+  "nickname": "XinQ",
+  "team": "Xtreme Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.4,
+    "deaths": 6.17,
+    "last_hits": 90.15,
+    "denies": 2.95,
+    "gold_per_min": 337.62,
+    "tower_kills": 0.4,
+    "observer_uses": 6.3,
+    "camps_stacked": 4.17,
+    "rune_pickups": 3.85,
+    "roshan_kills": 0.2,
+    "teamfight_participation": 0.72,
+    "stuns": 85.1,
+    "courier_kills": 0.15,
+    "smoke_uses": 0.88,
+    "first_bloods": 0.17
+  },
+  "last_updated": "2025-08-27T00:43:50.486340",
+  "position": 4
+}

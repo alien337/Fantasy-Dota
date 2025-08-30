@@ -1,0 +1,25 @@
+{
+  "player_id": "136829091",
+  "nickname": "Whitemon",
+  "team": "Tundra Esports",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.48,
+    "deaths": 6.05,
+    "last_hits": 76.8,
+    "denies": 3.27,
+    "gold_per_min": 331.07,
+    "tower_kills": 0.38,
+    "observer_uses": 11.95,
+    "camps_stacked": 4.25,
+    "rune_pickups": 2.98,
+    "roshan_kills": 0.12,
+    "teamfight_participation": 0.65,
+    "stuns": 38.92,
+    "courier_kills": 0.3,
+    "smoke_uses": 4.75,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:14:02.090535",
+  "position": 5
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "152168157",
+  "nickname": "OmaR",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.38,
+    "deaths": 6.12,
+    "last_hits": 73.6,
+    "denies": 2.33,
+    "gold_per_min": 302.85,
+    "tower_kills": 0.17,
+    "observer_uses": 9.68,
+    "camps_stacked": 3.65,
+    "rune_pickups": 2.15,
+    "roshan_kills": 0.1,
+    "teamfight_participation": 0.62,
+    "stuns": 59.23,
+    "courier_kills": 0.3,
+    "smoke_uses": 3.45,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-27T00:36:53.487110",
+  "position": 4
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "219755398",
+  "nickname": "Jîng",
+  "team": "Team Nemesis",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.8,
+    "deaths": 5.35,
+    "last_hits": 96.25,
+    "denies": 1.75,
+    "gold_per_min": 367.48,
+    "tower_kills": 0.45,
+    "observer_uses": 5.1,
+    "camps_stacked": 4.8,
+    "rune_pickups": 2.7,
+    "roshan_kills": 0.1,
+    "teamfight_participation": 0.6,
+    "stuns": 54.26,
+    "courier_kills": 0.33,
+    "smoke_uses": 1.93,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:47:39.492148",
+  "position": 4
+}

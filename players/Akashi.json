@@ -1,0 +1,25 @@
+{
+  "player_id": "330534326",
+  "nickname": "Akashi",
+  "team": "Team Nemesis",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 8.38,
+    "deaths": 3.23,
+    "last_hits": 406.45,
+    "denies": 11.95,
+    "gold_per_min": 717.98,
+    "tower_kills": 2.33,
+    "observer_uses": 0.25,
+    "camps_stacked": 2.17,
+    "rune_pickups": 2.15,
+    "roshan_kills": 0.68,
+    "teamfight_participation": 0.63,
+    "stuns": 25.91,
+    "courier_kills": 0.45,
+    "smoke_uses": 0,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-27T00:47:12.676785",
+  "position": 1
+}

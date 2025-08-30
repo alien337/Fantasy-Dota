@@ -1,0 +1,25 @@
+{
+  "player_id": "124801257",
+  "nickname": "Nightfall",
+  "team": "Aurora Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 8.18,
+    "deaths": 3.25,
+    "last_hits": 446.25,
+    "denies": 9.18,
+    "gold_per_min": 718.52,
+    "tower_kills": 2.88,
+    "observer_uses": 0.07,
+    "camps_stacked": 2.17,
+    "rune_pickups": 3.08,
+    "roshan_kills": 0.57,
+    "teamfight_participation": 0.62,
+    "stuns": 21.07,
+    "courier_kills": 0.07,
+    "smoke_uses": 0,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-27T00:38:27.632146",
+  "position": 1
+}

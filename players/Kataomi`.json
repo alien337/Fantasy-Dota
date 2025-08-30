@@ -1,0 +1,25 @@
+{
+  "player_id": "196878136",
+  "nickname": "Kataomi`",
+  "team": "BB Team",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.02,
+    "deaths": 6.1,
+    "last_hits": 63.9,
+    "denies": 2.17,
+    "gold_per_min": 310.3,
+    "tower_kills": 0.2,
+    "observer_uses": 11.22,
+    "camps_stacked": 2.27,
+    "rune_pickups": 3.35,
+    "roshan_kills": 0.05,
+    "teamfight_participation": 0.61,
+    "stuns": 27.08,
+    "courier_kills": 0.23,
+    "smoke_uses": 2.5,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-27T00:17:43.648772",
+  "position": 5
+}

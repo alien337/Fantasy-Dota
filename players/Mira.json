@@ -1,0 +1,25 @@
+{
+  "player_id": "256156323",
+  "nickname": "Mira",
+  "team": "Aurora Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.02,
+    "deaths": 8.53,
+    "last_hits": 68.05,
+    "denies": 2.75,
+    "gold_per_min": 319.1,
+    "tower_kills": 0.35,
+    "observer_uses": 7.9,
+    "camps_stacked": 4.35,
+    "rune_pickups": 2.7,
+    "roshan_kills": 0.12,
+    "teamfight_participation": 0.65,
+    "stuns": 80.94,
+    "courier_kills": 0.72,
+    "smoke_uses": 2.8,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-27T00:38:52.819526",
+  "position": 4
+}

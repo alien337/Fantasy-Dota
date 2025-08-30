@@ -1,0 +1,25 @@
+{
+  "player_id": "104512126",
+  "nickname": "Mac",
+  "team": "Team Nemesis",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 9,
+    "deaths": 3.35,
+    "last_hits": 326.82,
+    "denies": 8.6,
+    "gold_per_min": 625.73,
+    "tower_kills": 1.4,
+    "observer_uses": 1.73,
+    "camps_stacked": 1.12,
+    "rune_pickups": 9.88,
+    "roshan_kills": 0.28,
+    "teamfight_participation": 0.67,
+    "stuns": 33.2,
+    "courier_kills": 0.28,
+    "smoke_uses": 0.12,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:47:25.127194",
+  "position": 2
+}

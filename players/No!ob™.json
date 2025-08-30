@@ -1,0 +1,25 @@
+{
+  "player_id": "140297552",
+  "nickname": "No!ob™",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.03,
+    "deaths": 4.12,
+    "last_hits": 280.25,
+    "denies": 10.25,
+    "gold_per_min": 499.38,
+    "tower_kills": 1.52,
+    "observer_uses": 0.1,
+    "camps_stacked": 1.95,
+    "rune_pickups": 2.1,
+    "roshan_kills": 0.38,
+    "teamfight_participation": 0.56,
+    "stuns": 36.61,
+    "courier_kills": 0.38,
+    "smoke_uses": 0.12,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-27T00:36:46.485490",
+  "position": 3
+}

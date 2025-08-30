@@ -1,0 +1,25 @@
+{
+  "player_id": "185590374",
+  "nickname": "Niku",
+  "team": "Natus Vincere",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.8,
+    "deaths": 3.7,
+    "last_hits": 348.5,
+    "denies": 6.6,
+    "gold_per_min": 603.38,
+    "tower_kills": 1.23,
+    "observer_uses": 1.4,
+    "camps_stacked": 2.9,
+    "rune_pickups": 8.6,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.7,
+    "stuns": 27.11,
+    "courier_kills": 0.17,
+    "smoke_uses": 0,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:32:33.203173",
+  "position": 2
+}

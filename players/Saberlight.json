@@ -1,0 +1,25 @@
+{
+  "player_id": "126212866",
+  "nickname": "Saberlight",
+  "team": "Team Liquid",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.55,
+    "deaths": 5.05,
+    "last_hits": 282.07,
+    "denies": 7,
+    "gold_per_min": 549.77,
+    "tower_kills": 1.12,
+    "observer_uses": 0.05,
+    "camps_stacked": 2.45,
+    "rune_pickups": 1.88,
+    "roshan_kills": 0.17,
+    "teamfight_participation": 0.66,
+    "stuns": 37.89,
+    "courier_kills": 0.17,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:24:47.633125",
+  "position": 3
+}

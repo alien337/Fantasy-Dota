@@ -1,0 +1,25 @@
+{
+  "player_id": "132309493",
+  "nickname": "raven",
+  "team": "Team Nemesis",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.17,
+    "deaths": 2.88,
+    "last_hits": 257.27,
+    "denies": 7.62,
+    "gold_per_min": 553.6,
+    "tower_kills": 1.2,
+    "observer_uses": 0.03,
+    "camps_stacked": 1.12,
+    "rune_pickups": 1.65,
+    "roshan_kills": 0.3,
+    "teamfight_participation": 0.64,
+    "stuns": 38.3,
+    "courier_kills": 0.17,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:47:32.446939",
+  "position": 3
+}

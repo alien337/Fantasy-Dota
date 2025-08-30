@@ -1,0 +1,25 @@
+{
+  "player_id": "101259972",
+  "nickname": "Oli~",
+  "team": "Yakult Brothers",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.38,
+    "deaths": 5.25,
+    "last_hits": 65.65,
+    "denies": 3.17,
+    "gold_per_min": 302.8,
+    "tower_kills": 0.1,
+    "observer_uses": 9.95,
+    "camps_stacked": 2,
+    "rune_pickups": 2.08,
+    "roshan_kills": 0.17,
+    "teamfight_participation": 0.67,
+    "stuns": 29.95,
+    "courier_kills": 0.07,
+    "smoke_uses": 3.55,
+    "first_bloods": 0.17
+  },
+  "last_updated": "2025-08-28T04:11:22.400597",
+  "position": 5
+}

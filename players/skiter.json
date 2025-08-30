@@ -1,0 +1,25 @@
+{
+  "player_id": "100058342",
+  "nickname": "skiter",
+  "team": "Team Falcons",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 7.28,
+    "deaths": 2.83,
+    "last_hits": 406.38,
+    "denies": 12.55,
+    "gold_per_min": 680.95,
+    "tower_kills": 2.9,
+    "observer_uses": 0.07,
+    "camps_stacked": 2.73,
+    "rune_pickups": 3.9,
+    "roshan_kills": 0.57,
+    "teamfight_participation": 0.62,
+    "stuns": 26.01,
+    "courier_kills": 0.15,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.05
+  },
+  "last_updated": "2025-08-26T21:57:31.806515",
+  "position": 1
+}

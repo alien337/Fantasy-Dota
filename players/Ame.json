@@ -1,0 +1,25 @@
+{
+  "player_id": "898754153",
+  "nickname": "Ame",
+  "team": "Xtreme Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 5.4,
+    "deaths": 3.33,
+    "last_hits": 460.32,
+    "denies": 10.88,
+    "gold_per_min": 680.35,
+    "tower_kills": 2.58,
+    "observer_uses": 0.05,
+    "camps_stacked": 2.75,
+    "rune_pickups": 2.25,
+    "roshan_kills": 0.68,
+    "teamfight_participation": 0.59,
+    "stuns": 9.22,
+    "courier_kills": 0.07,
+    "smoke_uses": 0,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-27T00:42:23.996488",
+  "position": 1
+}

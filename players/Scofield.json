@@ -1,0 +1,25 @@
+{
+  "player_id": "157989498",
+  "nickname": "Scofield",
+  "team": "HEROIC",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.12,
+    "deaths": 8,
+    "last_hits": 69.78,
+    "denies": 1.48,
+    "gold_per_min": 324.2,
+    "tower_kills": 0.5,
+    "observer_uses": 4.47,
+    "camps_stacked": 4.78,
+    "rune_pickups": 3.38,
+    "roshan_kills": 0.17,
+    "teamfight_participation": 0.65,
+    "stuns": 89.67,
+    "courier_kills": 0.53,
+    "smoke_uses": 1.57,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:57:45.893252",
+  "position": 4
+}

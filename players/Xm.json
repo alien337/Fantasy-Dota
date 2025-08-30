@@ -1,0 +1,25 @@
+{
+  "player_id": "137129583",
+  "nickname": "Xm",
+  "team": "Xtreme Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 4.92,
+    "deaths": 3.42,
+    "last_hits": 339.8,
+    "denies": 8.78,
+    "gold_per_min": 540.05,
+    "tower_kills": 0.72,
+    "observer_uses": 1.48,
+    "camps_stacked": 1.75,
+    "rune_pickups": 9.18,
+    "roshan_kills": 0.23,
+    "teamfight_participation": 0.65,
+    "stuns": 19.7,
+    "courier_kills": 0.42,
+    "smoke_uses": 0.1,
+    "first_bloods": 0
+  },
+  "last_updated": "2025-08-27T00:42:36.196900",
+  "position": 2
+}

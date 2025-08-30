@@ -1,0 +1,25 @@
+{
+  "player_id": "94296097",
+  "nickname": "xNova",
+  "team": "Invictus Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 1.98,
+    "deaths": 4.3,
+    "last_hits": 55.02,
+    "denies": 1.73,
+    "gold_per_min": 285.1,
+    "tower_kills": 0.05,
+    "observer_uses": 9.53,
+    "camps_stacked": 2.75,
+    "rune_pickups": 2.6,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.59,
+    "stuns": 17.43,
+    "courier_kills": 0,
+    "smoke_uses": 2.73,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:44:41.480895",
+  "position": 5
+}

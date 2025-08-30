@@ -1,0 +1,25 @@
+{
+  "player_id": "150961567",
+  "nickname": "planet",
+  "team": "Team Tidebound",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 3.5,
+    "deaths": 5.2,
+    "last_hits": 80.6,
+    "denies": 2.05,
+    "gold_per_min": 320.55,
+    "tower_kills": 0.15,
+    "observer_uses": 4.95,
+    "camps_stacked": 3.6,
+    "rune_pickups": 2.62,
+    "roshan_kills": 0.03,
+    "teamfight_participation": 0.66,
+    "stuns": 52.25,
+    "courier_kills": 0.53,
+    "smoke_uses": 1.98,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-26T22:06:37.333496",
+  "position": 4
+}

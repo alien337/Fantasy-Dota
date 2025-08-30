@@ -1,0 +1,25 @@
+{
+  "player_id": "106305042",
+  "nickname": "Larl",
+  "team": "Team Spirit",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 8.03,
+    "deaths": 3.8,
+    "last_hits": 354.82,
+    "denies": 10.62,
+    "gold_per_min": 606.4,
+    "tower_kills": 0.8,
+    "observer_uses": 0.93,
+    "camps_stacked": 1.1,
+    "rune_pickups": 11.9,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.7,
+    "stuns": 57.24,
+    "courier_kills": 0.15,
+    "smoke_uses": 0.17,
+    "first_bloods": 0.12
+  },
+  "last_updated": "2025-08-26T21:54:17.345148",
+  "position": 2
+}

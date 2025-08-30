@@ -1,0 +1,25 @@
+{
+  "player_id": "191362875",
+  "nickname": "Speeed",
+  "team": "Wildcard",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 1.8,
+    "deaths": 5.67,
+    "last_hits": 92.8,
+    "denies": 3.85,
+    "gold_per_min": 331.43,
+    "tower_kills": 0.33,
+    "observer_uses": 5.72,
+    "camps_stacked": 4.72,
+    "rune_pickups": 2.85,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.62,
+    "stuns": 25.74,
+    "courier_kills": 0.5,
+    "smoke_uses": 1.35,
+    "first_bloods": 0.07
+  },
+  "last_updated": "2025-08-27T00:55:05.947982",
+  "position": 5
+}

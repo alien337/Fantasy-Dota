@@ -1,0 +1,25 @@
+{
+  "player_id": "206642367",
+  "nickname": "Ghost",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 6.6,
+    "deaths": 3.45,
+    "last_hits": 464.75,
+    "denies": 12.55,
+    "gold_per_min": 687,
+    "tower_kills": 2.83,
+    "observer_uses": 0.15,
+    "camps_stacked": 1.68,
+    "rune_pickups": 2.7,
+    "roshan_kills": 0.95,
+    "teamfight_participation": 0.56,
+    "stuns": 18.53,
+    "courier_kills": 0.12,
+    "smoke_uses": 0.03,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:36:19.032640",
+  "position": 1
+}

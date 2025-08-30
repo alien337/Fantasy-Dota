@@ -1,0 +1,25 @@
+{
+  "player_id": "54580962",
+  "nickname": "Insania ",
+  "team": "Team Liquid",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.95,
+    "deaths": 5.85,
+    "last_hits": 69.05,
+    "denies": 2.4,
+    "gold_per_min": 322.1,
+    "tower_kills": 0.4,
+    "observer_uses": 8.35,
+    "camps_stacked": 3.25,
+    "rune_pickups": 1.98,
+    "roshan_kills": 0.05,
+    "teamfight_participation": 0.66,
+    "stuns": 28.32,
+    "courier_kills": 0.12,
+    "smoke_uses": 2.08,
+    "first_bloods": 0.1
+  },
+  "last_updated": "2025-08-27T00:25:39.781506",
+  "position": 5
+}

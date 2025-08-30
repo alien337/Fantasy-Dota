@@ -1,0 +1,25 @@
+{
+  "player_id": "177203952",
+  "nickname": "Yuma",
+  "team": "HEROIC",
+  "matches_analyzed": 39,
+  "stats": {
+    "kills": 10.41,
+    "deaths": 3.82,
+    "last_hits": 445.56,
+    "denies": 8.31,
+    "gold_per_min": 710.13,
+    "tower_kills": 3,
+    "observer_uses": 0.05,
+    "camps_stacked": 2.23,
+    "rune_pickups": 2.36,
+    "roshan_kills": 0.64,
+    "teamfight_participation": 0.69,
+    "stuns": 21.65,
+    "courier_kills": 0.21,
+    "smoke_uses": 0,
+    "first_bloods": 0.13
+  },
+  "last_updated": "2025-08-27T00:57:13.262502",
+  "position": 1
+}

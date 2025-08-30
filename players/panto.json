@@ -1,0 +1,25 @@
+{
+  "player_id": "108958769",
+  "nickname": "panto",
+  "team": "Aurora Gaming",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.48,
+    "deaths": 7.58,
+    "last_hits": 59.83,
+    "denies": 3.52,
+    "gold_per_min": 311.52,
+    "tower_kills": 0.3,
+    "observer_uses": 9.25,
+    "camps_stacked": 2.52,
+    "rune_pickups": 2.05,
+    "roshan_kills": 0.05,
+    "teamfight_participation": 0.65,
+    "stuns": 35.79,
+    "courier_kills": 0.12,
+    "smoke_uses": 3.5,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-08-27T00:39:00.567703",
+  "position": 5
+}

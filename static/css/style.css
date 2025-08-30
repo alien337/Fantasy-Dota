@@ -1,0 +1,646 @@
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 24px; 
+}
+
+/* SEO and Accessibility Styles */
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 6px;
+	background: #000;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	z-index: 10000;
+	transition: top 0.3s;
+}
+
+.skip-link:focus {
+	top: 6px;
+}
+
+/* Loading Message Styles */
+.loading-message {
+	text-align: center;
+	padding: 40px;
+	font-size: 18px;
+	color: #666;
+	background: #f9f9f9;
+	border-radius: 8px;
+	margin: 20px 0;
+}
+
+body.dark .loading-message {
+	background: #333;
+	color: #999;
+}
+
+/* Fantasy Points Styles */
+.fantasy-points {
+	font-weight: bold;
+}
+
+/* Best/Worst Results Styles */
+.best { 
+	background-color: #e6f7e6; 
+	color: #2e7d32;
+	font-weight: bold;
+}
+
+.worst { 
+	background-color: #ffecec; 
+	color: #c62828;
+	font-weight: bold;
+}
+
+/* Dark theme for best/worst */
+body.dark .best {
+	background-color: #1b3a1b;
+	color: #66bb6a;
+}
+
+body.dark .worst {
+	background-color: #3a1b1b;
+	color: #ef5350;
+}
+
+/* Footer Styles */
+footer {
+	margin-top: 40px;
+	padding: 20px 0;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+.footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+.footer-content p {
+	margin: 0;
+	color: #666;
+	font-size: 14px;
+}
+
+body.dark footer {
+	border-top-color: #333;
+}
+
+body.dark .footer-content p {
+	color: #999;
+}
+
+/* Stats Section Styles */
+.stats-section {
+	margin-bottom: 30px;
+}
+
+h1 { 
+	margin-bottom: 16px; 
+}
+
+table { 
+	border-collapse: collapse; 
+	width: 100%; 
+}
+
+th, td { 
+	border: 1px solid #ddd; 
+	padding: 8px; 
+}
+
+th { 
+	background: #f4f4f4; 
+	cursor: pointer; 
+	position: sticky; 
+	top: 0; 
+}
+
+tr:nth-child(even) { 
+	background: #fafafa; 
+}
+
+th.sort-asc::after { 
+	content: " \25B2"; 
+}
+
+th.sort-desc::after { 
+	content: " \25BC"; 
+}
+
+.error { 
+	color: #b00020; 
+	margin-bottom: 12px; 
+}
+
+.theme-toggle { 
+	padding: 6px 10px; 
+	border-radius: 6px; 
+	border: 1px solid #ccc; 
+	background: #f4f4f4; 
+	cursor: pointer; 
+}
+
+body.dark { 
+	background: #121212; 
+	color: #e0e0e0; 
+}
+
+body.dark th, body.dark td { 
+	border-color: #333; 
+}
+
+body.dark th { 
+	background: #1e1e1e; 
+}
+
+body.dark tr:nth-child(even) { 
+	background: #151515; 
+}
+
+body.dark .best { 
+	background-color: #173a1a; 
+}
+
+body.dark .worst { 
+	background-color: #3a1616; 
+}
+
+body.dark .theme-toggle { 
+	background: #1e1e1e; 
+	color: #e0e0e0; 
+	border-color: #000000; 
+}
+
+/* Header styles */
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header-left h1 {
+	margin: 0;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+/* Table header styles */
+.table-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 16px 0 0 0;
+}
+
+.table-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.table-title h2 {
+	margin: 0;
+	text-align: left;
+	color: #333;
+}
+
+body.dark .table-title h2 {
+	color: #e0e0e0;
+}
+
+/* Filter container styles */
+.filter-container {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.filter-label {
+	font-weight: bold;
+}
+
+/* Help button and dropdown styles */
+.help-container {
+	position: relative;
+	display: inline-block;
+}
+
+.help-button {
+	background: #f8f9fa;
+	color: #495057;
+	border: 1px solid #dee2e6;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.help-button:hover {
+	background: #e9ecef;
+	color: #212529;
+	transform: translateY(-1px);
+	box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+	border-color: #adb5bd;
+}
+
+body.dark .help-button {
+	background: #343a40;
+	color: #adb5bd;
+	border-color: #495057;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+body.dark .help-button:hover {
+	background: #495057;
+	color: #e9ecef;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+	border-color: #6c757d;
+}
+
+.help-dropdown {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+	z-index: 1000;
+	min-width: 400px;
+	max-width: 500px;
+	margin-top: 8px;
+}
+
+.help-dropdown.show {
+	display: block;
+}
+
+.help-dropdown::before {
+	content: '';
+	position: absolute;
+	top: -8px;
+	left: 12px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #ddd;
+}
+
+.help-dropdown h3 {
+	margin: 0 0 15px 0;
+	color: #333;
+	font-size: 18px;
+}
+
+.help-dropdown h4 {
+	margin: 20px 0 10px 0;
+	color: #333;
+	font-size: 16px;
+}
+
+.help-dropdown ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.help-dropdown li {
+	margin: 5px 0;
+	color: #555;
+	line-height: 1.4;
+}
+
+.help-dropdown strong {
+	color: #333;
+}
+
+/* Dark theme for help dropdown */
+body.dark .help-dropdown {
+	background: #1e1e1e;
+	border-color: #333;
+	color: #e0e0e0;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+body.dark .help-dropdown::before {
+	border-bottom-color: #333;
+}
+
+body.dark .help-dropdown h3,
+body.dark .help-dropdown h4 {
+	color: #e0e0e0;
+}
+
+body.dark .help-dropdown li {
+	color: #bbb;
+}
+
+body.dark .help-dropdown strong {
+	color: #e0e0e0;
+}
+
+/* Donate button styles */
+.donate-button {
+	display: inline-flex;
+	align-items: center;
+	background: linear-gradient(135deg, #4CAF50, #45a049);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 6px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+	white-space: nowrap;
+	height: 32px;
+	box-sizing: border-box;
+}
+
+.donate-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.play-button {
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline;
+	transition: all 0.2s ease;
+	margin: 0 0 0 4px;
+	padding: 2px 4px;
+	line-height: 1;
+	vertical-align: baseline;
+	user-select: none;
+}
+
+.play-button:hover {
+	background: rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+}
+
+/* Dark theme for donate button */
+body.dark .donate-button {
+	background: linear-gradient(135deg, #388E3C, #2E7D32);
+	box-shadow: 0 2px 8px rgba(56, 142, 60, 0.3);
+}
+
+body.dark .donate-button:hover {
+	box-shadow: 0 4px 12px rgba(56, 142, 60, 0.4);
+}
+
+/* Position filter button styles */
+.pos-filter-btn {
+	padding: 4px 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #f4f4f4;
+	color: #333;
+	cursor: pointer;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	min-width: 24px;
+	font-size: 12px;
+}
+
+.pos-filter-btn:hover {
+	background: #e9e9e9;
+	border-color: #bbb;
+	transform: translateY(-1px);
+}
+
+.pos-filter-btn.active {
+	background: #4CAF50;
+	color: white;
+	border-color: #45a049;
+}
+
+.pos-filter-btn.active:hover {
+	background: #45a049;
+}
+
+/* Dark theme for position filter buttons */
+body.dark .pos-filter-btn {
+	background: #1e1e1e;
+	color: #e0e0e0;
+	border-color: #333;
+}
+
+body.dark .pos-filter-btn:hover {
+	background: #2a2a2a;
+	border-color: #555;
+}
+
+body.dark .pos-filter-btn.active {
+	background: #388E3C;
+	border-color: #2E7D32;
+}
+
+body.dark .pos-filter-btn.active:hover {
+	background: #2E7D32;
+}
+
+/* Table toggle button styles */
+#toggleTableBtn {
+	transition: all 0.3s ease;
+}
+
+#toggleTableBtn:hover {
+	transform: scale(1.05);
+}
+
+/* Table container animation */
+.table-container {
+	transition: all 0.3s ease;
+	overflow: hidden;
+}
+
+.table-container.collapsed {
+	max-height: 0;
+	opacity: 0;
+}
+
+.table-container.expanded {
+	max-height: none;
+	opacity: 1;
+}
+
+/* Table wrapper for horizontal scroll */
+.table-wrapper {
+	overflow-x: auto;
+	overflow-y: hidden;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	margin: 8px 0;
+}
+
+body.dark .table-wrapper {
+	border-color: #333;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+	body {
+		margin: 12px;
+	}
+	
+	h1 {
+		font-size: 20px;
+	}
+	
+	h2 {
+		font-size: 16px;
+	}
+	
+	.table-wrapper {
+		margin: 4px 0;
+	}
+	
+	/* Make table headers sticky on mobile */
+	th {
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+	
+	/* Ensure minimum table width */
+	table {
+		min-width: 800px;
+	}
+	
+	/* Adjust button sizes for mobile */
+	.pos-filter-btn {
+		padding: 6px 10px;
+		min-width: 28px;
+		font-size: 14px;
+	}
+	
+	/* Make header more compact on mobile */
+	.header-container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+	
+	/* Adjust help dropdown for mobile */
+	.help-dropdown {
+		min-width: 300px;
+		max-width: 90vw;
+		left: -100px;
+	}
+	
+	/* Footer responsive */
+	.footer-content {
+		padding: 0 16px;
+	}
+}
+
+/* Additional mobile optimizations */
+@media (max-width: 480px) {
+	body {
+		margin: 8px;
+	}
+	
+	h1 {
+		font-size: 18px;
+	}
+	
+	h2 {
+		font-size: 14px;
+	}
+	
+	/* Make table wrapper more visible on small screens */
+	.table-wrapper {
+		border-width: 2px;
+	}
+	
+	/* Ensure table has enough space to scroll */
+	.table-wrapper::-webkit-scrollbar {
+		height: 8px;
+	}
+	
+	.table-wrapper::-webkit-scrollbar-track {
+		background: #f1f1f1;
+		border-radius: 4px;
+	}
+	
+	.table-wrapper::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 4px;
+	}
+	
+	.table-wrapper::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+	
+	/* Enhanced centering for very small screens */
+	.filter-container {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		gap: 6px;
+	}
+	
+	/* Footer responsive */
+	.footer-content {
+		padding: 0 12px;
+	}
+	
+	.footer-content p {
+		font-size: 12px;
+	}
+}
+
+/* Dark theme scrollbar styles */
+body.dark .table-wrapper::-webkit-scrollbar-track {
+	background: #2a2a2a;
+}
+
+body.dark .table-wrapper::-webkit-scrollbar-thumb {
+	background: #666;
+}
+
+body.dark .table-wrapper::-webkit-scrollbar-thumb:hover {
+	background: #888;
+}
+
+/* Firefox scrollbar styles */
+.table-wrapper {
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f1f1f1;
+}
+
+body.dark .table-wrapper {
+	scrollbar-color: #666 #2a2a2a;
+}

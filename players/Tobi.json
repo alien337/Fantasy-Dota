@@ -1,0 +1,25 @@
+{
+  "player_id": "140288368",
+  "nickname": "Tobi",
+  "team": "Tundra Esports",
+  "matches_analyzed": 40,
+  "stats": {
+    "kills": 2.42,
+    "deaths": 5.65,
+    "last_hits": 65.22,
+    "denies": 2.55,
+    "gold_per_min": 321.48,
+    "tower_kills": 0.17,
+    "observer_uses": 6.72,
+    "camps_stacked": 2.77,
+    "rune_pickups": 2.2,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.59,
+    "stuns": 29.26,
+    "courier_kills": 0.12,
+    "smoke_uses": 0.78,
+    "first_bloods": 0.15
+  },
+  "last_updated": "2025-09-01T01:26:07.994734",
+  "position": 5
+}

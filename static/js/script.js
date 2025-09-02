@@ -197,8 +197,8 @@
 				points += stats.teamfight_participation * 1895;
 			}
 			
-			// STUNS: +128 per second of stun
-			points += stats.stuns * 128;
+			// STUNS: +15 per second of stun
+			points += stats.stuns * 15;
 			
 			// COURIER KILLS: +850 per courier kill
 			points += stats.courier_kills * 850;

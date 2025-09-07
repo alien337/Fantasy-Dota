@@ -4,13 +4,18 @@
 		constructor() {
 			this.players = [];
 			this.filteredPlayers = [];
+			this.tiPlayers = [];
+			this.filteredTIPlayers = [];
 			this.init();
 		}
 
 		async init() {
 			await this.loadAllPlayers();
+			await this.loadTIPlayers();
 			this.renderTable();
+			this.renderTITable();
 			this.initTableManager();
+			this.initTITableManager();
 			this.initThemeToggle();
 			this.initHelpButton();
 			this.initDonateButton();
@@ -112,6 +117,88 @@
 			
 			this.players.sort((a, b) => b.fantasyPoints - a.fantasyPoints);
 			this.filteredPlayers = [...this.players];
+		}
+
+		async loadTIPlayers() {
+			try {
+				// Получаем список TI игроков из players/18324/
+				const tiPlayerFiles = await this.getTIPlayerFiles();
+				console.log(`Найдено ${tiPlayerFiles.length} TI игроков:`, tiPlayerFiles);
+				
+				const loadPromises = tiPlayerFiles.map(filename => this.loadTIPlayerData(filename));
+				const results = await Promise.allSettled(loadPromises);
+				
+				this.tiPlayers = results
+					.filter(result => result.status === 'fulfilled' && result.value)
+					.map(result => result.value);
+				
+				console.log(`Успешно загружено ${this.tiPlayers.length} TI игроков`);
+				
+				// Сортируем по fantasy points
+				this.tiPlayers.sort((a, b) => b.fantasyPoints - a.fantasyPoints);
+				this.filteredTIPlayers = [...this.tiPlayers];
+			} catch (error) {
+				console.error('Ошибка при загрузке TI игроков:', error);
+			}
+		}
+
+		async getTIPlayerFiles() {
+			try {
+				const response = await fetch('players/18324/players_config.json');
+				if (response.ok) {
+					const config = await response.json();
+					console.log('✓ Загружен конфигурационный файл TI игроков');
+					return config.players || [];
+				}
+			} catch (error) {
+				console.log('Конфигурационный файл TI игроков не найден');
+			}
+			return [];
+		}
+
+		async loadTIPlayerData(filename) {
+			try {
+				const response = await fetch(`players/18324/${filename}`);
+				if (!response.ok) {
+					console.warn(`Failed to load TI player ${filename}: ${response.status}`);
+					return null;
+				}
+				const data = await response.json();
+				return this.processTIPlayerData(data);
+			} catch (error) {
+				console.warn(`Error loading TI player ${filename}:`, error);
+				return null;
+			}
+		}
+
+		processTIPlayerData(playerData) {
+			const stats = playerData.stats;
+			
+			// Вычисляем fantasy points согласно правилам
+			const fantasyPoints = this.calculateFantasyPoints(stats);
+			
+			return {
+				nickname: playerData.nickname,
+				team: playerData.team,
+				position: playerData.position || 1, // TI данные могут не иметь позиции
+				matches: playerData.matches_analyzed,
+				kills: stats.kills,
+				deaths: stats.deaths,
+				lastHits: stats.last_hits,
+				denies: stats.denies,
+				gpm: stats.gold_per_min,
+				towerKills: stats.tower_kills,
+				observerUses: stats.observer_uses,
+				campsStacked: stats.camps_stacked,
+				runePickups: stats.rune_pickups,
+				roshanKills: stats.roshan_kills,
+				teamfightParticipation: stats.teamfight_participation,
+				stuns: stats.stuns,
+				courierKills: stats.courier_kills,
+				smokeUses: stats.smoke_uses,
+				firstBloods: stats.first_bloods,
+				fantasyPoints: fantasyPoints
+			};
 		}
 
 		async loadPlayerData(filename) {
@@ -249,6 +336,42 @@
 			});
 		}
 
+		renderTITable() {
+			const tbody = document.getElementById('statsTableBodyTI');
+			if (!tbody) return;
+
+			tbody.innerHTML = '';
+			
+			// Вычисляем лучшие и худшие значения для каждого столбца TI
+			const columnStats = this.calculateTIColumnStats();
+			
+			this.filteredTIPlayers.forEach(player => {
+				const row = document.createElement('tr');
+				row.innerHTML = `
+					<td>${player.position}</td>
+					<td>${player.nickname}</td>
+					<td>${player.team}</td>
+					<td class="${this.getCellClass(player.fantasyPoints, columnStats.fantasyPoints)}">${player.fantasyPoints.toLocaleString()}</td>
+					<td class="${this.getCellClass(player.kills, columnStats.kills)}">${player.kills.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.deaths, columnStats.deaths, true)}">${player.deaths.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.lastHits, columnStats.lastHits)}">${player.lastHits.toFixed(1)}</td>
+					<td class="${this.getCellClass(player.denies, columnStats.denies)}">${player.denies.toFixed(1)}</td>
+					<td class="${this.getCellClass(player.gpm, columnStats.gpm)}">${player.gpm.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.towerKills, columnStats.towerKills)}">${player.towerKills.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.observerUses, columnStats.observerUses)}">${player.observerUses.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.campsStacked, columnStats.campsStacked)}">${player.campsStacked.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.runePickups, columnStats.runePickups)}">${player.runePickups.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.roshanKills, columnStats.roshanKills)}">${player.roshanKills.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.teamfightParticipation, columnStats.teamfightParticipation)}">${(player.teamfightParticipation * 100).toFixed(1)}%</td>
+					<td class="${this.getCellClass(player.stuns, columnStats.stuns)}">${player.stuns.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.courierKills, columnStats.courierKills)}">${player.courierKills.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.smokeUses, columnStats.smokeUses)}">${player.smokeUses.toFixed(2)}</td>
+					<td class="${this.getCellClass(player.firstBloods, columnStats.firstBloods)}">${player.firstBloods.toFixed(2)}</td>
+				`;
+				tbody.appendChild(row);
+			});
+		}
+
 		calculateColumnStats() {
 			if (this.filteredPlayers.length === 0) return {};
 
@@ -286,6 +409,43 @@
 			return stats;
 		}
 
+		calculateTIColumnStats() {
+			if (this.filteredTIPlayers.length === 0) return {};
+
+			const stats = {};
+			
+			// Получаем все числовые значения для каждого столбца TI
+			const columns = {
+				fantasyPoints: this.filteredTIPlayers.map(p => p.fantasyPoints),
+				kills: this.filteredTIPlayers.map(p => p.kills),
+				deaths: this.filteredTIPlayers.map(p => p.deaths),
+				lastHits: this.filteredTIPlayers.map(p => p.lastHits),
+				denies: this.filteredTIPlayers.map(p => p.denies),
+				gpm: this.filteredTIPlayers.map(p => p.gpm),
+				towerKills: this.filteredTIPlayers.map(p => p.towerKills),
+				observerUses: this.filteredTIPlayers.map(p => p.observerUses),
+				campsStacked: this.filteredTIPlayers.map(p => p.campsStacked),
+				runePickups: this.filteredTIPlayers.map(p => p.runePickups),
+				roshanKills: this.filteredTIPlayers.map(p => p.roshanKills),
+				teamfightParticipation: this.filteredTIPlayers.map(p => p.teamfightParticipation),
+				stuns: this.filteredTIPlayers.map(p => p.stuns),
+				courierKills: this.filteredTIPlayers.map(p => p.courierKills),
+				smokeUses: this.filteredTIPlayers.map(p => p.smokeUses),
+				firstBloods: this.filteredTIPlayers.map(p => p.firstBloods)
+			};
+
+			// Вычисляем min/max для каждого столбца
+			Object.keys(columns).forEach(key => {
+				const values = columns[key];
+				stats[key] = {
+					min: Math.min(...values),
+					max: Math.max(...values)
+				};
+			});
+
+			return stats;
+		}
+
 		getCellClass(value, columnStat, lowerIsBetter = false) {
 			if (!columnStat) return '';
 			
@@ -304,6 +464,10 @@
 
 		initTableManager() {
 			new TableManager('statsTable', 'tableContainer', 'toggleTableBtn', 'pos-filter-btn');
+		}
+
+		initTITableManager() {
+			new TableManager('statsTableTI', 'tableContainerTI', 'toggleTableBtnTI', 'pos-filter-btn');
 		}
 
 		initThemeToggle() {

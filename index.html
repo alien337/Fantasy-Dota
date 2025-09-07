@@ -142,6 +142,55 @@
 	<main id="main-content" role="main">
 		<div id="loadingMessage" class="loading-message">Загрузка данных игроков...</div>
 		
+		<section class="stats-section" aria-labelledby="ti-title">
+			<div class="table-header">
+				<div class="table-title">
+					<h2 id="ti-title">THE INTERNATIONAL 2025</h2>
+					<button id="toggleTableBtnTI" class="theme-toggle" title="Collapse/Expand table" aria-label="Collapse or expand The International 2025 table">▶</button>
+				</div>
+			</div>
+			<div id="tableContainerTI" class="table-container">
+				<div class="filter-container" role="group" aria-labelledby="pos-filter-label-ti">
+					<span id="pos-filter-label-ti" class="filter-label">Pos.</span>
+					<button class="pos-filter-btn active" data-pos="1" title="Show/Hide Position 1 players" aria-label="Filter position 1">1</button>
+					<button class="pos-filter-btn active" data-pos="2" title="Show/Hide Position 2 players" aria-label="Filter position 2">2</button>
+					<button class="pos-filter-btn active" data-pos="3" title="Show/Hide Position 3 players" aria-label="Filter position 3">3</button>
+					<button class="pos-filter-btn active" data-pos="4" title="Show/Hide Position 4 players" aria-label="Filter position 4">4</button>
+					<button class="pos-filter-btn active" data-pos="5" title="Show/Hide Position 5 players" aria-label="Filter position 5">5</button>
+				</div>
+				<div class="table-wrapper">
+					<table id="statsTableTI" role="table" aria-labelledby="ti-title">
+						<thead>
+							<tr>
+								<th scope="col">Pos.</th>
+								<th scope="col">Nickname</th>
+								<th scope="col">Team</th>
+								<th scope="col">Fantasy Points</th>
+								<th scope="col">Kills</th>
+								<th scope="col">Deaths</th>
+								<th scope="col">Last Hits</th>
+								<th scope="col">Denies</th>
+								<th scope="col">GPM</th>
+								<th scope="col">Tower Kills</th>
+								<th scope="col">Observer Uses</th>
+								<th scope="col">Camps Stacked</th>
+								<th scope="col">Rune Pickups</th>
+								<th scope="col">Roshan Kills</th>
+								<th scope="col">Teamfight Participation</th>
+								<th scope="col">Stuns</th>
+								<th scope="col">Courier Kills</th>
+								<th scope="col">Smoke Uses</th>
+								<th scope="col">First Bloods</th>
+							</tr>
+						</thead>
+						<tbody id="statsTableBodyTI">
+							<!-- Данные будут загружены через JavaScript -->
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		
 		<section class="stats-section" aria-labelledby="recent-games-title">
 			<div class="table-header">
 				<div class="table-title">

@@ -125,6 +125,12 @@
 				const tiPlayerFiles = await this.getTIPlayerFiles();
 				console.log(`Найдено ${tiPlayerFiles.length} TI игроков:`, tiPlayerFiles);
 				
+				if (tiPlayerFiles.length === 0) {
+					console.log('TI конфиг пуст, используем fallback список');
+					await this.loadTIPlayersFallback();
+					return;
+				}
+				
 				const loadPromises = tiPlayerFiles.map(filename => this.loadTIPlayerData(filename));
 				const results = await Promise.allSettled(loadPromises);
 				
@@ -139,6 +145,8 @@
 				this.filteredTIPlayers = [...this.tiPlayers];
 			} catch (error) {
 				console.error('Ошибка при загрузке TI игроков:', error);
+				// Fallback на старый список файлов если что-то пошло не так
+				await this.loadTIPlayersFallback();
 			}
 		}
 
@@ -154,6 +162,38 @@
 				console.log('Конфигурационный файл TI игроков не найден');
 			}
 			return [];
+		}
+
+		async loadTIPlayersFallback() {
+			console.log('Используем fallback список TI игроков');
+			const fallbackFiles = [
+				'33.json', '4nalog丶01.json', '9Class.json', 'Akashi.json', 'Ame.json',
+				'AMMAR_THE_F.json', 'Armel.json', 'Bach.json', 'Beyond.json', 'Bignum.json',
+				'BoBoKa.json', 'Boxi.json', 'bzm.json', 'Collapse.json', 'Cr1t-.json',
+				'Crystallis.json', 'DM.json', 'Dukalis.json', 'Emo.json', 'Erice.json',
+				'Fayde.json', 'flyfly.json', 'GH.json', 'Ghost.json', 'gotthejuice.json',
+				'gpk~.json', 'Insania .json', 'Jabz.json', 'JACKBOYS.json', 'Jaunuel.json',
+				'Jîng.json', 'Kataomi`.json', 'KG_Zayac.json', 'KingJungles.json', 'kiyotaka.json',
+				'Larl.json', 'm1CKe.json', 'Mac.json', 'Malr1ne.json', 'MieRo.json',
+				'Miposhka.json', 'Mira.json', 'Nightfall.json', 'Niku.json', 'Nisha.json',
+				'No!ob™.json', 'No[o]ne-.json', 'NothingToSay.json', 'Oli~.json', 'OmaR.json',
+				'panto.json', 'planet.json', 'pma.json', 'Pure.json', 'raven.json',
+				'RCY.json', 'Riddys.json', 'rue.json', 'Saberlight.json', 'Saksa.json',
+				'Satanic.json', 'Save-.json', 'Scofield.json', 'shiro.json', 'skiter.json',
+				'Sneyking.json', 'Speeed.json', 'SumaiL-.json', 'TIMS.json', 'Tobi.json',
+				'TORONTOTOKYO.json', 'Wisper.json', 'XinQ.json', 'Xm.json', 'xNova.json',
+				'Xxs.json', 'y`.json', 'Yamsun.json', 'Yatoro.json', 'Yuma.json'
+			];
+			
+			const loadPromises = fallbackFiles.map(filename => this.loadTIPlayerData(filename));
+			const results = await Promise.allSettled(loadPromises);
+			
+			this.tiPlayers = results
+				.filter(result => result.status === 'fulfilled' && result.value)
+				.map(result => result.value);
+			
+			this.tiPlayers.sort((a, b) => b.fantasyPoints - a.fantasyPoints);
+			this.filteredTIPlayers = [...this.tiPlayers];
 		}
 
 		async loadTIPlayerData(filename) {
@@ -338,8 +378,12 @@
 
 		renderTITable() {
 			const tbody = document.getElementById('statsTableBodyTI');
-			if (!tbody) return;
+			if (!tbody) {
+				console.error('TI tbody не найден!');
+				return;
+			}
 
+			console.log(`Отрисовка TI таблицы: ${this.filteredTIPlayers.length} игроков`);
 			tbody.innerHTML = '';
 			
 			// Вычисляем лучшие и худшие значения для каждого столбца TI
@@ -467,7 +511,8 @@
 		}
 
 		initTITableManager() {
-			new TableManager('statsTableTI', 'tableContainerTI', 'toggleTableBtnTI', 'pos-filter-btn');
+			// Для TI таблицы используем отдельный менеджер
+			new TITableManager('statsTableTI', 'tableContainerTI', 'toggleTableBtnTI', 'pos-filter-btn-ti', this);
 		}
 
 		initThemeToggle() {
@@ -692,6 +737,134 @@
 					row.style.display = 'none';
 				}
 			});
+		}
+	}
+
+	// Класс для управления TI таблицей
+	class TITableManager {
+		constructor(tableId, containerId, toggleBtnId, filterBtnClass, dataManager) {
+			this.tableId = tableId;
+			this.containerId = containerId;
+			this.toggleBtnId = toggleBtnId;
+			this.filterBtnClass = filterBtnClass;
+			this.dataManager = dataManager;
+			this.container = document.getElementById(containerId);
+			this.toggleBtn = document.getElementById(toggleBtnId);
+			this.filterBtns = document.querySelectorAll(`#${containerId} .${filterBtnClass}`);
+			this.table = document.getElementById(tableId);
+			
+			this.init();
+		}
+		
+		init() {
+			if (this.container && this.toggleBtn) {
+				this.initToggle();
+			}
+			if (this.filterBtns.length > 0) {
+				this.initFilters();
+			}
+			if (this.table) {
+				this.initSorting();
+			}
+		}
+		
+		initToggle() {
+			this.toggleBtn.addEventListener('click', () => {
+				const isCollapsed = this.container.style.display === 'none';
+				this.container.style.display = isCollapsed ? 'block' : 'none';
+				this.toggleBtn.textContent = isCollapsed ? '▼' : '▶';
+			});
+		}
+		
+		initFilters() {
+			this.filterBtns.forEach(btn => {
+				btn.addEventListener('click', () => {
+					btn.classList.toggle('active');
+					this.applyFilters();
+				});
+			});
+			
+			this.applyFilters();
+		}
+		
+		initSorting() {
+			const thead = this.table.tHead;
+			if (!thead) return;
+			
+			let sortState = { col: -1, dir: 1 };
+			
+			const getCellValue = (row, index) => {
+				const cell = row.children[index];
+				if (!cell) return '';
+				
+				const text = cell.innerText.trim();
+				
+				// Специальная обработка для Fantasy Points (убираем запятые)
+				if (index === 3) { // Fantasy Points колонка теперь четвёртая
+					return parseInt(text.replace(/,/g, '')) || 0;
+				}
+				
+				// Для процентных значений
+				if (text.includes('%')) {
+					return parseFloat(text.replace('%', '')) || 0;
+				}
+				
+				// Для числовых значений
+				const num = parseFloat(text);
+				if (!isNaN(num)) {
+					return num;
+				}
+				
+				return text.toLowerCase();
+			};
+			
+			const sortByColumn = (index) => {
+				const tbody = this.table.tBodies[0];
+				const rows = Array.from(tbody.rows);
+				
+				rows.sort((a, b) => {
+					const aVal = getCellValue(a, index);
+					const bVal = getCellValue(b, index);
+					
+					if (typeof aVal === 'number' && typeof bVal === 'number') {
+						return (aVal - bVal) * sortState.dir;
+					}
+					
+					return aVal.localeCompare(bVal) * sortState.dir;
+				});
+				
+				rows.forEach(row => tbody.appendChild(row));
+			};
+			
+			thead.addEventListener('click', (e) => {
+				const th = e.target.closest('th');
+				if (!th) return;
+				
+				const index = Array.from(th.parentNode.children).indexOf(th);
+				
+				if (sortState.col === index) {
+					sortState.dir *= -1;
+				} else {
+					sortState.dir = 1;
+				}
+				
+				sortState.col = index;
+				sortByColumn(index);
+			});
+		}
+		
+		applyFilters() {
+			const activePositions = Array.from(this.filterBtns)
+				.filter(btn => btn.classList.contains('active'))
+				.map(btn => parseInt(btn.dataset.pos));
+			
+			// Фильтруем TI игроков
+			this.dataManager.filteredTIPlayers = this.dataManager.tiPlayers.filter(player => 
+				activePositions.includes(player.position)
+			);
+			
+			// Перерисовываем таблицу
+			this.dataManager.renderTITable();
 		}
 	}
 

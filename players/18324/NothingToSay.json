@@ -1,0 +1,31 @@
+{
+  "player_id": "173978074",
+  "nickname": "NothingToSay",
+  "team": "Team Tidebound",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 6.75,
+    "deaths": 4.33,
+    "assists": 13.58,
+    "last_hits": 358.33,
+    "denies": 5.92,
+    "gold_per_min": 565.92,
+    "xp_per_min": 773.75,
+    "tower_kills": 0.33,
+    "observer_uses": 1.33,
+    "camps_stacked": 2,
+    "rune_pickups": 10.58,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.74,
+    "stuns": 70.46,
+    "courier_kills": 0.17,
+    "smoke_uses": 0.25,
+    "first_bloods": 0,
+    "hero_damage": 26672.92,
+    "hero_healing": 89.25,
+    "tower_damage": 447.92
+  },
+  "last_updated": "2025-09-08T03:24:17.227161",
+  "position": 2
+}

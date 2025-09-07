@@ -1,0 +1,31 @@
+{
+  "player_id": "160119017",
+  "nickname": "Fayde",
+  "team": "Unknown Team",
+  "matches_analyzed": 13,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 3.46,
+    "deaths": 5,
+    "assists": 9.46,
+    "last_hits": 315.31,
+    "denies": 8.85,
+    "gold_per_min": 506,
+    "xp_per_min": 604,
+    "tower_kills": 0.62,
+    "observer_uses": 0.31,
+    "camps_stacked": 3,
+    "rune_pickups": 1.62,
+    "roshan_kills": 0.08,
+    "teamfight_participation": 0.56,
+    "stuns": 17.04,
+    "courier_kills": 0.23,
+    "smoke_uses": 0.23,
+    "first_bloods": 0.15,
+    "hero_damage": 13878.08,
+    "hero_healing": 2499.62,
+    "tower_damage": 1849
+  },
+  "last_updated": "2025-09-08T03:24:17.214430",
+  "position": 3
+}

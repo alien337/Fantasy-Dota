@@ -1,0 +1,31 @@
+{
+  "player_id": "10366616",
+  "nickname": "Sneyking",
+  "team": "Team Falcons",
+  "matches_analyzed": 16,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 2,
+    "deaths": 5.06,
+    "assists": 18.94,
+    "last_hits": 240.44,
+    "denies": 5.94,
+    "gold_per_min": 447.94,
+    "xp_per_min": 603.81,
+    "tower_kills": 1.19,
+    "observer_uses": 9.56,
+    "camps_stacked": 3.88,
+    "rune_pickups": 4.69,
+    "roshan_kills": 0.44,
+    "teamfight_participation": 0.66,
+    "stuns": 16.99,
+    "courier_kills": 0.25,
+    "smoke_uses": 1.75,
+    "first_bloods": 0,
+    "hero_damage": 14346.81,
+    "hero_healing": 10293.81,
+    "tower_damage": 3931.5
+  },
+  "last_updated": "2025-09-08T03:24:17.188416",
+  "position": 5
+}

@@ -1,0 +1,31 @@
+{
+  "player_id": "103735745",
+  "nickname": "Saksa",
+  "team": "Tundra Esports",
+  "matches_analyzed": 17,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 2.53,
+    "deaths": 6.65,
+    "assists": 12.47,
+    "last_hits": 116.71,
+    "denies": 2.71,
+    "gold_per_min": 345.47,
+    "xp_per_min": 496.12,
+    "tower_kills": 0.59,
+    "observer_uses": 7.29,
+    "camps_stacked": 4.71,
+    "rune_pickups": 3.71,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.68,
+    "stuns": 49.83,
+    "courier_kills": 0.71,
+    "smoke_uses": 1.88,
+    "first_bloods": 0,
+    "hero_damage": 14912.82,
+    "hero_healing": 628.53,
+    "tower_damage": 2069.24
+  },
+  "last_updated": "2025-09-08T03:24:17.203639",
+  "position": 4
+}

@@ -1,0 +1,31 @@
+{
+  "player_id": "480412663",
+  "nickname": "gpk~",
+  "team": "BB Team",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 7.08,
+    "deaths": 1.83,
+    "assists": 13.5,
+    "last_hits": 469.58,
+    "denies": 14.58,
+    "gold_per_min": 666.5,
+    "xp_per_min": 847.08,
+    "tower_kills": 0.92,
+    "observer_uses": 1.17,
+    "camps_stacked": 2.08,
+    "rune_pickups": 12.75,
+    "roshan_kills": 0.5,
+    "teamfight_participation": 0.72,
+    "stuns": 56.12,
+    "courier_kills": 0.5,
+    "smoke_uses": 0.25,
+    "first_bloods": 0.08,
+    "hero_damage": 29801.17,
+    "hero_healing": 120.83,
+    "tower_damage": 2312
+  },
+  "last_updated": "2025-09-08T03:24:17.231066",
+  "position": 2
+}

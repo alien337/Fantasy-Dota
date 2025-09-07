@@ -1,0 +1,31 @@
+{
+  "player_id": "131303632",
+  "nickname": "4nalog丶01",
+  "team": "HEROIC",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 6.92,
+    "deaths": 2.17,
+    "assists": 11.92,
+    "last_hits": 335.67,
+    "denies": 9,
+    "gold_per_min": 608.58,
+    "xp_per_min": 784.25,
+    "tower_kills": 0.92,
+    "observer_uses": 1.25,
+    "camps_stacked": 2.92,
+    "rune_pickups": 11.5,
+    "roshan_kills": 0.17,
+    "teamfight_participation": 0.6,
+    "stuns": 32.21,
+    "courier_kills": 0.25,
+    "smoke_uses": 0.42,
+    "first_bloods": 0.08,
+    "hero_damage": 20778.17,
+    "hero_healing": 26.83,
+    "tower_damage": 1760.42
+  },
+  "last_updated": "2025-09-08T03:24:17.223248",
+  "position": 2
+}

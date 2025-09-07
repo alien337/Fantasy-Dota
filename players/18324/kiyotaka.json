@@ -1,0 +1,31 @@
+{
+  "player_id": "858106446",
+  "nickname": "kiyotaka",
+  "team": "Aurora Gaming",
+  "matches_analyzed": 13,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 8.77,
+    "deaths": 3.31,
+    "assists": 7.46,
+    "last_hits": 435.08,
+    "denies": 10.77,
+    "gold_per_min": 664.31,
+    "xp_per_min": 814.31,
+    "tower_kills": 0.46,
+    "observer_uses": 1.54,
+    "camps_stacked": 2.15,
+    "rune_pickups": 12.46,
+    "roshan_kills": 0.15,
+    "teamfight_participation": 0.7,
+    "stuns": 30.2,
+    "courier_kills": 0.15,
+    "smoke_uses": 0,
+    "first_bloods": 0,
+    "hero_damage": 27554.08,
+    "hero_healing": 16.62,
+    "tower_damage": 1230.31
+  },
+  "last_updated": "2025-09-08T03:24:17.215405",
+  "position": 2
+}

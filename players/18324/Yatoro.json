@@ -1,0 +1,31 @@
+{
+  "player_id": "321580662",
+  "nickname": "Yatoro",
+  "team": "Team Spirit",
+  "matches_analyzed": 14,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 5.14,
+    "deaths": 3.14,
+    "assists": 4.21,
+    "last_hits": 538.14,
+    "denies": 14.07,
+    "gold_per_min": 713.79,
+    "xp_per_min": 854.21,
+    "tower_kills": 1.86,
+    "observer_uses": 0.07,
+    "camps_stacked": 2.43,
+    "rune_pickups": 2.57,
+    "roshan_kills": 0.71,
+    "teamfight_participation": 0.52,
+    "stuns": 12.33,
+    "courier_kills": 0.07,
+    "smoke_uses": 0,
+    "first_bloods": 0.14,
+    "hero_damage": 21068.21,
+    "hero_healing": 109.86,
+    "tower_damage": 5835
+  },
+  "last_updated": "2025-09-08T03:24:17.183526",
+  "position": 1
+}

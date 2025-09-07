@@ -1,0 +1,31 @@
+{
+  "player_id": "100598959",
+  "nickname": "Erice",
+  "team": "Team Nemesis",
+  "matches_analyzed": 10,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 1.3,
+    "deaths": 7.4,
+    "assists": 9.1,
+    "last_hits": 44.4,
+    "denies": 1.5,
+    "gold_per_min": 251.8,
+    "xp_per_min": 360.3,
+    "tower_kills": 0,
+    "observer_uses": 9.2,
+    "camps_stacked": 1.6,
+    "rune_pickups": 1.6,
+    "roshan_kills": 0,
+    "teamfight_participation": 0.68,
+    "stuns": 8.54,
+    "courier_kills": 0.1,
+    "smoke_uses": 4.1,
+    "first_bloods": 0.1,
+    "hero_damage": 9765,
+    "hero_healing": 0,
+    "tower_damage": 43.8
+  },
+  "last_updated": "2025-09-08T03:24:17.240390",
+  "position": 5
+}

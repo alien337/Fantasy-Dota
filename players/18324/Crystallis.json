@@ -1,0 +1,31 @@
+{
+  "player_id": "127617979",
+  "nickname": "Crystallis",
+  "team": "Tundra Esports",
+  "matches_analyzed": 17,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 6.29,
+    "deaths": 3.41,
+    "assists": 8.29,
+    "last_hits": 393.59,
+    "denies": 9,
+    "gold_per_min": 653.59,
+    "xp_per_min": 788.82,
+    "tower_kills": 1.59,
+    "observer_uses": 0.18,
+    "camps_stacked": 1.71,
+    "rune_pickups": 3.59,
+    "roshan_kills": 0.59,
+    "teamfight_participation": 0.64,
+    "stuns": 11.44,
+    "courier_kills": 0.12,
+    "smoke_uses": 0,
+    "first_bloods": 0.06,
+    "hero_damage": 24745.47,
+    "hero_healing": 393.47,
+    "tower_damage": 4932.12
+  },
+  "last_updated": "2025-09-08T03:24:17.202132",
+  "position": 1
+}

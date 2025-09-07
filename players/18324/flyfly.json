@@ -1,0 +1,31 @@
+{
+  "player_id": "168028715",
+  "nickname": "flyfly",
+  "team": "Yakult Brothers",
+  "matches_analyzed": 16,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 5.5,
+    "deaths": 4.5,
+    "assists": 6.75,
+    "last_hits": 423.5,
+    "denies": 11.75,
+    "gold_per_min": 678.69,
+    "xp_per_min": 728,
+    "tower_kills": 2.31,
+    "observer_uses": 0.19,
+    "camps_stacked": 1.06,
+    "rune_pickups": 1.44,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.58,
+    "stuns": 17.18,
+    "courier_kills": 0.31,
+    "smoke_uses": 0,
+    "first_bloods": 0,
+    "hero_damage": 22853.25,
+    "hero_healing": 605.69,
+    "tower_damage": 7401.19
+  },
+  "last_updated": "2025-09-08T03:24:17.218339",
+  "position": 1
+}

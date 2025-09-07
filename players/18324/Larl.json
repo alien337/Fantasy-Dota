@@ -1,0 +1,31 @@
+{
+  "player_id": "106305042",
+  "nickname": "Larl",
+  "team": "Team Spirit",
+  "matches_analyzed": 14,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 5.36,
+    "deaths": 3.79,
+    "assists": 6.29,
+    "last_hits": 377.43,
+    "denies": 13.57,
+    "gold_per_min": 569,
+    "xp_per_min": 655.07,
+    "tower_kills": 0.57,
+    "observer_uses": 0.64,
+    "camps_stacked": 1.14,
+    "rune_pickups": 8.29,
+    "roshan_kills": 0.14,
+    "teamfight_participation": 0.67,
+    "stuns": 44.35,
+    "courier_kills": 0.21,
+    "smoke_uses": 0.07,
+    "first_bloods": 0.14,
+    "hero_damage": 20731.29,
+    "hero_healing": 117.86,
+    "tower_damage": 956.93
+  },
+  "last_updated": "2025-09-08T03:24:17.185487",
+  "position": 2
+}

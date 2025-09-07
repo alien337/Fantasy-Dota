@@ -1,0 +1,31 @@
+{
+  "player_id": "111114687",
+  "nickname": "y`",
+  "team": "Team Tidebound",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 3.17,
+    "deaths": 6.58,
+    "assists": 17.42,
+    "last_hits": 70.58,
+    "denies": 2.83,
+    "gold_per_min": 344.08,
+    "xp_per_min": 517.08,
+    "tower_kills": 0,
+    "observer_uses": 15.42,
+    "camps_stacked": 1.92,
+    "rune_pickups": 3.08,
+    "roshan_kills": 0.08,
+    "teamfight_participation": 0.72,
+    "stuns": 29.11,
+    "courier_kills": 0.33,
+    "smoke_uses": 5.08,
+    "first_bloods": 0.08,
+    "hero_damage": 11449.75,
+    "hero_healing": 325.58,
+    "tower_damage": 176.75
+  },
+  "last_updated": "2025-09-08T03:24:17.229115",
+  "position": 5
+}

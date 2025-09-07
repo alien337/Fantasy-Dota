@@ -1,0 +1,31 @@
+{
+  "player_id": "130991304",
+  "nickname": "Riddys",
+  "team": "Natus Vincere",
+  "matches_analyzed": 13,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 1.85,
+    "deaths": 6.46,
+    "assists": 11.69,
+    "last_hits": 60.38,
+    "denies": 1.85,
+    "gold_per_min": 300.85,
+    "xp_per_min": 406.62,
+    "tower_kills": 0.62,
+    "observer_uses": 9.62,
+    "camps_stacked": 2.54,
+    "rune_pickups": 2,
+    "roshan_kills": 0.15,
+    "teamfight_participation": 0.67,
+    "stuns": 5.18,
+    "courier_kills": 0.23,
+    "smoke_uses": 3.38,
+    "first_bloods": 0.08,
+    "hero_damage": 13097.54,
+    "hero_healing": 4516.92,
+    "tower_damage": 1591.92
+  },
+  "last_updated": "2025-09-08T03:24:17.199201",
+  "position": 5
+}

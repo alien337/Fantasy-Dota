@@ -1,0 +1,31 @@
+{
+  "player_id": "898455820",
+  "nickname": "Malr1ne",
+  "team": "Team Falcons",
+  "matches_analyzed": 16,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 8.94,
+    "deaths": 4.31,
+    "assists": 16,
+    "last_hits": 448.88,
+    "denies": 4.69,
+    "gold_per_min": 624.94,
+    "xp_per_min": 808.88,
+    "tower_kills": 1.19,
+    "observer_uses": 1.81,
+    "camps_stacked": 3.94,
+    "rune_pickups": 10.69,
+    "roshan_kills": 0.5,
+    "teamfight_participation": 0.78,
+    "stuns": 88.43,
+    "courier_kills": 0.19,
+    "smoke_uses": 1.12,
+    "first_bloods": 0,
+    "hero_damage": 42301.44,
+    "hero_healing": 56.25,
+    "tower_damage": 1648.75
+  },
+  "last_updated": "2025-09-08T03:24:17.189391",
+  "position": 2
+}

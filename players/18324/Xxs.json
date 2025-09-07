@@ -1,0 +1,31 @@
+{
+  "player_id": "129958758",
+  "nickname": "Xxs",
+  "team": "Xtreme Gaming",
+  "matches_analyzed": 10,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 5.6,
+    "deaths": 3.2,
+    "assists": 16.3,
+    "last_hits": 409.7,
+    "denies": 11.4,
+    "gold_per_min": 586.3,
+    "xp_per_min": 776.5,
+    "tower_kills": 1,
+    "observer_uses": 0,
+    "camps_stacked": 2.1,
+    "rune_pickups": 3.1,
+    "roshan_kills": 0.2,
+    "teamfight_participation": 0.75,
+    "stuns": 49.84,
+    "courier_kills": 0.2,
+    "smoke_uses": 0,
+    "first_bloods": 0.3,
+    "hero_damage": 20923.1,
+    "hero_healing": 596,
+    "tower_damage": 2006.3
+  },
+  "last_updated": "2025-09-08T03:24:17.238436",
+  "position": 3
+}

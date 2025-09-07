@@ -1,0 +1,31 @@
+{
+  "player_id": "164199202",
+  "nickname": "9Class",
+  "team": "PVISION",
+  "matches_analyzed": 13,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 2.08,
+    "deaths": 6.77,
+    "assists": 13,
+    "last_hits": 163.08,
+    "denies": 2.08,
+    "gold_per_min": 394.31,
+    "xp_per_min": 544.85,
+    "tower_kills": 0.23,
+    "observer_uses": 8.38,
+    "camps_stacked": 6.92,
+    "rune_pickups": 7.31,
+    "roshan_kills": 0.08,
+    "teamfight_participation": 0.68,
+    "stuns": 27.13,
+    "courier_kills": 1.62,
+    "smoke_uses": 0.92,
+    "first_bloods": 0.08,
+    "hero_damage": 12412.62,
+    "hero_healing": 297.08,
+    "tower_damage": 803.08
+  },
+  "last_updated": "2025-09-08T03:24:17.209510",
+  "position": 4
+}

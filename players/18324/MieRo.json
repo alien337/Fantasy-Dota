@@ -1,0 +1,31 @@
+{
+  "player_id": "165564598",
+  "nickname": "MieRo",
+  "team": "BB Team",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 6,
+    "deaths": 4.17,
+    "assists": 13.83,
+    "last_hits": 386.08,
+    "denies": 7.33,
+    "gold_per_min": 598.25,
+    "xp_per_min": 721,
+    "tower_kills": 1.75,
+    "observer_uses": 0.08,
+    "camps_stacked": 2,
+    "rune_pickups": 2.17,
+    "roshan_kills": 0.42,
+    "teamfight_participation": 0.69,
+    "stuns": 24.6,
+    "courier_kills": 0.33,
+    "smoke_uses": 0,
+    "first_bloods": 0.17,
+    "hero_damage": 18944.25,
+    "hero_healing": 1394,
+    "tower_damage": 5365.08
+  },
+  "last_updated": "2025-09-08T03:24:17.231066",
+  "position": 3
+}

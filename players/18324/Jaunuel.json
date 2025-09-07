@@ -1,0 +1,31 @@
+{
+  "player_id": "148526973",
+  "nickname": "Jaunuel",
+  "team": "BOOM Esports",
+  "matches_analyzed": 12,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 2.25,
+    "deaths": 6.33,
+    "assists": 10.17,
+    "last_hits": 69.33,
+    "denies": 2.17,
+    "gold_per_min": 309.67,
+    "xp_per_min": 411.5,
+    "tower_kills": 0.67,
+    "observer_uses": 11.5,
+    "camps_stacked": 2.92,
+    "rune_pickups": 2.58,
+    "roshan_kills": 0.25,
+    "teamfight_participation": 0.73,
+    "stuns": 14.97,
+    "courier_kills": 0.17,
+    "smoke_uses": 3.75,
+    "first_bloods": 0,
+    "hero_damage": 14142.17,
+    "hero_healing": 2946.58,
+    "tower_damage": 1895.08
+  },
+  "last_updated": "2025-09-08T03:24:17.236485",
+  "position": 5
+}

@@ -1,0 +1,31 @@
+{
+  "player_id": "206642367",
+  "nickname": "Ghost",
+  "team": "Nigma Galaxy",
+  "matches_analyzed": 17,
+  "tournament_id": 18324,
+  "stats": {
+    "kills": 7.59,
+    "deaths": 4.76,
+    "assists": 7.53,
+    "last_hits": 517.65,
+    "denies": 11,
+    "gold_per_min": 725.82,
+    "xp_per_min": 834,
+    "tower_kills": 3.18,
+    "observer_uses": 0.18,
+    "camps_stacked": 1.94,
+    "rune_pickups": 3.59,
+    "roshan_kills": 1,
+    "teamfight_participation": 0.61,
+    "stuns": 39.74,
+    "courier_kills": 0.29,
+    "smoke_uses": 0.06,
+    "first_bloods": 0.06,
+    "hero_damage": 31931.29,
+    "hero_healing": 104.35,
+    "tower_damage": 8596.82
+  },
+  "last_updated": "2025-09-08T03:24:17.192322",
+  "position": 1
+}
